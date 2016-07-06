@@ -22,5 +22,5 @@ VOLUME ["/app"]
 WORKDIR /app
 
 # Set up the command arguments.
-ENTRYPOINT ["/usr/local/bin/phpunit"]
-CMD ["--help"]
+# ENTRYPOINT ["/usr/local/bin/phpunit"]
+# CMD ["--help"]
