@@ -1,5 +1,5 @@
 build:
-	docker build -t --no-cache jbzoo/unit
+	docker build -t jbzoo/unit .
 
 test:
 	@echo -n "Test\t\t\t"
