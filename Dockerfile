@@ -20,7 +20,3 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin/ 
 # Set up the application directory.
 VOLUME ["/app"]
 WORKDIR /app
-
-# Set up the command arguments.
-# ENTRYPOINT ["/usr/local/bin/phpunit"]
-# CMD ["--help"]
